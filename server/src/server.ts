@@ -87,7 +87,7 @@ app.get('/games/:id/ads', async (req, res) => {
      * e a aceleração da criação do banco.
      */
 
-    /////Formatação dos dias da semana antes de retornar
+    //Formatação dos dias da semana antes de retornar
     return res.json(ads.map((ad) => {
         return {
             ...ad,
